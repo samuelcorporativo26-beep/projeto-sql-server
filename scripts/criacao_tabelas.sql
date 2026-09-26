@@ -1,0 +1,11 @@
+CREATE DATABASE Projeto_ERP;
+
+USE Projeto_ERP;
+
+CREATE TABLE Clientes (
+    IdCliente INT IDENTITY(1,1) PRIMARY KEY,
+    Nome VARCHAR(100) NOT NULL,
+    Telefone VARCHAR(20),
+    Email VARCHAR(100) UNIQUE,
+    DataCadastro DATE DEFAULT GETDATE()
+);
