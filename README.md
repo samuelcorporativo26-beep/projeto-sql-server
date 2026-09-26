@@ -23,7 +23,6 @@ O projeto simula um fluxo de dados completo, desde a **extração dos dados atra
 - **SQL Server**
 - **SQL Server Management Studio (SSMS)**
 - **Python**
-- **Pandas**
 - **Requests**
 - **API SIDRA / IBGE**
 - **Git e GitHub**
