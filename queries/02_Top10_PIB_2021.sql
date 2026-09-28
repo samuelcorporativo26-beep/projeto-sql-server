@@ -1,6 +1,6 @@
 -- Top 10 Municipios com maior PIB em 2021
 
--- Top 10 Municípios com maior PIB em 2021
+
 
 SELECT TOP 10
     M.Municipio,
