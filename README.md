@@ -6,7 +6,7 @@ Projeto prático de Banco de Dados desenvolvido durante meus estudos, utilizando
 
 O projeto simula um fluxo de dados completo, desde a **extração dos dados através da API SIDRA/IBGE**, passando pelas etapas de **importação, staging e ETL**, até a organização dos dados em um **Data Warehouse** e realização de consultas analíticas.
 
-## 🎯 Objetivos
+##  Objetivos
 
 - Praticar SQL Server em um projeto baseado em dados reais;
 - Trabalhar com criação e relacionamento de tabelas;
@@ -49,9 +49,9 @@ Views
 Queries e análises
 ```
 
-## 🏗️ Estrutura do Data Warehouse
+##  Estrutura do Data Warehouse
 
-O Data Warehouse foi organizado utilizando tabelas de dimensão e fatos, posteriormente simplificadas para nomes mais diretos:
+O Data Warehouse foi organizado utilizando simplicidade para nomes mais diretos nas tabelas:
 
 ```text
 Estados
@@ -61,7 +61,7 @@ PIB
 População
 ```
 
-As tabelas de fatos são relacionadas às dimensões de município e tempo, permitindo realizar análises por **município, UF e ano**.
+As tabelas relacionadas às dimensões de município e tempo, permiti realizar análises por **município, UF e ano**.
 
 ## 📊 Principais análises realizadas
 
