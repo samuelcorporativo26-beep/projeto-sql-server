@@ -1,4 +1,4 @@
-Aqui fica todo o código SQL.
+Aqui fica o código SQL.
 
 database/
 
@@ -9,17 +9,6 @@ database/
 ├── 01_CreateDatabase.sql
 ├── 02_CreateTables.sql
 ├── 03_AlterTables.sql
-import/
-
-Aqui você pode colocar observações sobre como importar os arquivos.
-
-import/
-│
-├── Import_Estados.sql
-├── Import_Municipios.sql
-├── Import_Populacao.sql
-
-Esses arquivos podem conter comentários explicando qual arquivo importar e para qual tabela.
 
 profiling/
 
@@ -68,43 +57,17 @@ views/
 ├── vw_PopulacaoEstado.sql
 ├── vw_PIB_Estados.sql
 └── vw_Indicadores.sql
-procedures/
 
-Procedures que não são ETL.
+Extract/
+Arquivos extraidos  via Python
 
-Exemplo:
+Query/
+Consultas no banco de dados, subconjuntos de comandos da linguagem SQL 
+usados para gerenciar e interagir com bancos de dados.
 
-procedures/
-│
-├── sp_RankingPIB.sql
-├── sp_TopEstados.sql
-└── sp_ResumoPopulacao.sql
-indexes/
 
-Quando estudarmos índices.
 
-indexes/
-│
-└── CreateIndexes.sql
-queries/
 
-Consultas para análise.
 
-Exemplo:
 
-queries/
-│
-├── Top10PIB.sql
-├── RankingIDH.sql
-├── CrescimentoPopulacional.sql
-└── ReceitaVsDespesa.sql
 
-tests/
-
-Aqui ficam scripts para testar o projeto.
-
-tests/
-│
-├── Teste_ETL_Estados.sql
-├── Teste_ETL_Municipios.sql
-└── Teste_ETL_Populacao.sql
