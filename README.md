@@ -1,4 +1,4 @@
-# 🗄️ Projeto SQL Server — PIB e População dos Municípios Brasileiros
+# Projeto SQL Server — PIB e População dos Municípios Brasileiros
 
 ## 📌 Sobre o projeto
 
@@ -18,7 +18,7 @@ O projeto simula um fluxo de dados completo, desde a **extração dos dados atra
 - Praticar organização e estruturação de um projeto de Banco de Dados;
 - Desenvolver um projeto para portfólio.
 
-## 🛠️ Tecnologias utilizadas
+## Tecnologias utilizadas
 
 - **SQL Server**
 - **SQL Server Management Studio (SSMS)**
@@ -63,7 +63,7 @@ População
 
 As tabelas relacionadas às dimensões de município e tempo, permiti realizar análises por **município, UF e ano**.
 
-## 📊 Principais análises realizadas
+## Principais análises realizadas
 
 Entre as consultas desenvolvidas estão:
 
@@ -76,7 +76,7 @@ Entre as consultas desenvolvidas estão:
 - Análise de municípios utilizando condições de PIB e população;
 - Criação de uma view para facilitar consultas dos indicadores municipais.
 
-## 🔎 Conteúdos praticados
+##  Conteúdos praticados
 
 ### Banco de Dados
 
@@ -145,6 +145,6 @@ projeto-sql-server/
 └── Explicacao_Pastas.txt
 ```
 
-## 🚧 Projeto em desenvolvimento
+## Projeto em desenvolvimento
 
 Este projeto continua em desenvolvimento e será utilizado para aprofundar conhecimentos em **Banco de Dados, SQL Server, ETL e análise de dados**, adicionando novas consultas, melhorias na estrutura e novas etapas ao longo dos estudos.
